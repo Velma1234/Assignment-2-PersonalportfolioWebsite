@@ -1,0 +1,349 @@
+body{
+    
+    margin: auto;/*centering all the content in my webpage body*/
+    background-color: rgb(253, 171, 158);;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+/*styling navigation section*/
+.navsection{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 171, 158);
+    border-radius: 5px;
+    text-align: center;
+}
+.navsection h1{
+    color:rgb(229, 0, 70) ;
+    text-shadow:5px 3px 7px rgb(151, 69, 93) ;  
+    font-size: 80px;
+    
+    
+}
+.navsection ul{
+    list-style: none;
+    padding: 10px;
+   
+}
+.navsection ul li  {
+    color: white;
+    border-radius: 5px;
+    display: inline;
+    padding: 10px;
+    
+    
+}
+.navsection ul li a {
+    color: white;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+.navsection ul  li a:hover{
+    background-color: rgba(255, 255, 255, 0.159);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.logoimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.home{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color:rgb(199, 219, 156) ;
+    padding: 30px;
+    border-radius: 5px;
+    height: 500px;
+}
+
+.homeImg{
+    width: 500px;
+    height: 500px;
+    box-shadow: 4px 3px 5px;
+}
+.intro{
+    padding:20px ;
+    padding-top: 80px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.411);
+    border-radius: 5px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+.about {
+    padding: 20px;
+    border-radius: 5px;
+    background-image: url(me.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    background-color: #FFF0BD;
+    
+}
+.about p{
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.69);
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    
+}
+ h2  {
+    color:rgb(229, 0, 70) ;
+    width: 100%;
+    text-align: center;
+    text-shadow:5px 3px 7px rgb(151, 69, 93) ;
+
+    
+}
+.about .skills {
+    display: flex;
+    gap: 20px;/* to add space between each div */
+    flex-wrap: wrap; /* Allowing  items to wrap to the next line if necessary */
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.PLs , .softDev  ,.networking ,.Data_Analysis , .problemSolv ,.Softskills ,.CreativeSkills {
+    
+    padding: 5px;
+    border-radius: 3px;
+    font-size: smaller;
+    background-color:rgba(253, 171, 158, 0.438) ;
+    flex: 1;/* Ensures each div takes up equal space */
+    min-width: 200px; /* Ensures a minimum width for each div */
+    margin: 5px;
+}
+h4{
+    text-align: center;
+    font-weight: bolder;
+
+}
+.services{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image:url(sevicesBG2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    height: 800px;
+}
+.services a{
+    text-decoration: none;
+    color: black;
+}
+
+.service1 ,.service2 ,.service3 {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.619);
+    flex: 1;
+    border-radius: 5px;
+}
+.contactSSection{
+    background-image: url(contactMeimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+  }
+.contact{
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    border: 2px solid rgb(199, 219, 156) ;
+    border-radius: 5px;
+    margin: auto;
+    background-color:rgb(199, 219, 156) ;
+    box-shadow: 3px 3px 5px rgb(229, 0, 70); ; 
+    
+}
+.contact h2 {
+    color: rgb(229, 0, 70);
+    text-shadow:5px 3px 7px rgb(151, 69, 93) ;  
+    text-align: center;
+    
+}
+form{
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+}
+label{
+    font-size: larger;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-left: 3%;
+}
+input{
+    width: 95%;
+    height: 40px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.318);
+}
+input:hover ,textarea:hover ,button:hover{
+    border: 2px solid rgba(0, 0, 0, 0.445);
+    box-shadow: 5px 3px 5px rgba(0,0,0,0.445) ;
+}
+textarea{
+    width: 95%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.318);
+}
+button{
+    width:140px;
+    height:50px;
+    font-weight: bold;
+    font-size: large;
+    background-color:rgb(229, 0, 70);
+    border: rgb(229, 0, 70);
+    border-radius:5px;
+}
+button:hover{
+    color: white;
+    border: 1px solid rgba(229, 0, 69, 0.375);; 
+}
+.footer{
+    display: flex;
+    background-color:  rgb(253, 171, 158);
+    justify-content: center;
+    align-items: center;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+.footer ul li a{
+    text-decoration: none;
+    color: White;
+}
+.footer ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.159);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width:600px){
+    body{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+      }
+      .home{
+        background-color: black;
+        color: white;
+        margin: auto;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex:1;
+      }
+      img{
+        border-radius: 50%;
+      }
+      .about{
+        display: flex;
+        flex-wrap: wrap;
+        flex:1;
+        justify-content: center;
+      }
+      .services{
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+        flex:1;
+        justify-content: center;
+      }
+      
+    .contact{
+        padding: 0px;
+        width: 300px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex:1;
+        justify-content: center;
+    }
+
+
+    
+}
+@media (min-width:601px)and (max-width:1300px) {
+    body{
+        background-color:black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+          }
+          .home{
+            background-color: black;
+            color: white;
+            margin: auto;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex:1;
+          }
+          img{
+            border-radius: 50%;
+          }
+          .about{
+            display: flex;
+            flex-wrap: wrap;
+            flex:1;
+            justify-content: center;
+          }
+          .services{
+            display: flex;
+            flex-wrap: wrap;
+            flex:1;
+            justify-content: center;
+          }
+          .contactSSection{
+            background-image: url(contactMeimg.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding: 20px;
+          }
+        .contact{
+            
+            padding: 0px;
+            width: 300px;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex:1;
+            justify-content: center;
+        }
+    
+}
